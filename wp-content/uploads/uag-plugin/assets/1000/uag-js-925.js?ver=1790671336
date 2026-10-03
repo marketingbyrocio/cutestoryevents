@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", function(){ window.addEventListener( 'load', function() {
+	UAGBButtonChild.init( '.uagb-block-49e766d0' );
+});
+window.addEventListener( 'load', function() {
+	UAGBButtonChild.init( '.uagb-block-8ecf9f4e' );
+});
+window.addEventListener("DOMContentLoaded", function(){
+	UAGBForms.init( {"block_id":"79136dae","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSiteKeyV3":"","afterSubmitToEmail":"","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Form Submission","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Please fill up the above captcha.","confirmationUrl":""}, '.uagb-block-79136dae', 9201 );
+});
+ });
